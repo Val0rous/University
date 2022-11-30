@@ -1,0 +1,24 @@
+Q: Elencare e descrivere brevemente i tre standard alla base del Web.
+
+Le tre tecnologie fondamentali alla base del funzionamento del Web sono HTML, URI e HTTP.
+Nate nel 1990, nel corso del tempo sono state migliorate e integrate da altre, arricchendo la 
+struttura originaria per fornire servizi avanzati agli utenti e strumenti efficaci agli 
+sviluppatori.
+
+HTML (HyperText Markup Language) è il formato che definisce le pagine Web. Permette di 
+identificare correttamente il formato dati della risorsa comunicata, per poter accedere al suo 
+contenuto in maniera chiara e non ambigua, mediante apposite applicazioni sul client. È un
+linguaggio di markup che utilizza tag per formattare il contenuto di documenti ipertestuali, 
+definendone struttura e semantica. Lo stile di presentazione della pagina web viene definito 
+mediante il linguaggio CSS (Cascading Style Sheets), separandolo dal contenuto definito in HTML.
+
+URI (Uniform Resource Identifier) è una stringa che permette di identificare univocamente e 
+globalmente le risorse. Queste ultime sono elementi di interesse all'interno del WWW (World-Wide
+Web), spazio informativo per umani e applicazioni.
+
+HTTP (HyperText Transfer Protocol) è un protocollo Internet di comunicazione a livello 
+Applicazione. Permette l'interazione Client-Server sopra TCP, attraverso lo scambio di messaggi 
+su una rete informatica (in particolare TCP/IP). Il Client (Browser) inizia l'interazione 
+inviando al Server il messaggio HTTP contenente l'URI della risorsa richiesta. Il Server trova 
+la risorsa (HTML) e la spedisce al Client, che la visualizzerà tramite il Browser. In questo
+modo, il Client attira a sè i contenuti richiesti, effettuando un'operazione detta Pull.
