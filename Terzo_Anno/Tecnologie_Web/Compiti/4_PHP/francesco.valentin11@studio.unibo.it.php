@@ -60,6 +60,57 @@
                 $conn->close();
             }
             
+            // List values in either set A ($set = 1) or B ($set = 2)
+            function ListValuesInSet($set_number, $conn) {
+                $sql = "SELECT valore FROM insiemi WHERE insieme=?";
+                $stmt = $conn->prepare($sql);
+                $stmt->bind_param("i", $set_number);
+                $stmt->execute();
+                $stmt->bind_result($row);
+    
+                // creating array
+                $array = [];
+                while($stmt->fetch()) {
+                    static $index = 0;
+                    $array[$index] = $row;
+                    $index++;
+                }
+                //echo '<pre>', var_dump($array), '</pre>';
+                return $array;
+            }
+
+            // Operate Union or Intersection on the two arrays based on the value of $O
+            function OperateOnSet($arrayA, $arrayB) {
+                global $O;
+                $newSet = [];
+                switch ($O) {
+                    case "u":
+                        // Set Union
+                        $newSet = array_unique(array_merge($arrayA, $arrayB));
+                        break;
+                    case "i":
+                        // Set Intersection
+                        $newSet = array_intersect($arrayA, $arrayB);
+                        break;
+                    default:
+                        die("No operation is possible!");
+                }
+
+                return $newSet;
+            }
+
+            // Get next usable index in the database
+            function DBGetNextIndex($conn) {
+                $sql = "SELECT MAX(id) FROM insiemi";
+                $stmt = $conn->prepare($sql);
+                $stmt->execute();
+                $stmt->bind_result($index);
+                $stmt->fetch();
+
+                return $index+1;
+            }
+
+
             //THEY'RE GONNA BE PASSED VIA A GET FUNCTION LATER ON: YOU'LL LIKELY HAVE TO SEND IT HERE TO LOCALHOST
             //declaring variables #1 (test)
             $A = 1;
@@ -72,41 +123,44 @@
             CheckVariableB();
             CheckVariableO();
 
-            //$arrayA;
-            $sql = "SELECT valore FROM insiemi WHERE insieme=1";
-            $stmt = $conn->prepare($sql);
-            $stmt->execute();
-            $stmt->bind_result($row);
+            $arrayA = ListValuesInSet(1, $conn);
+            //echo '<pre>', var_dump($arrayA), '</pre>';
+            $arrayB = ListValuesInSet(2, $conn);
+            //echo '<pre>', var_dump($arrayB), '</pre>';
 
-            // creating array
-            while($stmt->fetch()) {
-                static $index = 0;
-                $arrayA[$index] = $row;
-                $index++;
-            }
+            $newArray = OperateOnSet($arrayA, $arrayB);
+            echo '<pre>', var_dump($newArray), '</pre>';
 
-            //$arrayA = fetch_all($result);
-            echo '<pre>', var_dump($arrayA), '</pre>';
-
+            ////echo "The next index in database is ".DBGetNextIndex($conn);
             
-            //$arrayB;
-            //$fillB = $conn->prepare("SELECT valore FROM tabelle WHERE insieme=2");
-            //$fillA->bind_param("i", $arrayB);
-            //mysql_free_result($resultA);
-            ////var_dump($arrayA);
-            
+            CloseCon($conn);
 
 
-            echo "<br/>Second round!<br/><br/>";
+
+
+            echo "<br/>SECOND ROUND!<br/><br/>";
+
+
+
 
             //declaring variables #2 (test)
             $A = 1;
             $B = 2;
             $O = "i";
 
+            $conn = OpenCon();
+
             CheckVariableA();
             CheckVariableB();
             CheckVariableO();
+
+            $arrayA = ListValuesInSet(1, $conn);
+            //echo '<pre>', var_dump($arrayA), '</pre>';
+            $arrayB = ListValuesInSet(2, $conn);
+            //echo '<pre>', var_dump($arrayB), '</pre>';
+
+            $newArray = OperateOnSet($arrayA, $arrayB);
+            echo '<pre>', var_dump($newArray), '</pre>';
 
             CloseCon($conn);
 
