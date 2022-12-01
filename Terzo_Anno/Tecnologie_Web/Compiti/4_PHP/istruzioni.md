@@ -11,4 +11,4 @@ In questa pagina, occorrerà:
 
 Esempi con i dati di esempio presenti nel file README_DB.txt:  
 Se A=1, B=2 e O=u i seguenti numeri dovranno essere inseriti all'interno del db (colonna valore): 19, 2, 14, 98, 1. Tutte queste righe avranno il valore 3 nella colonna insieme.  
-Se A=1, B=" e O=i i seguenti numeri dovranno essere inseriti all'interno del db (colonna valore): 19. Questa riga avrà il valore 3 nella colonna insieme.  
+Se A=1, B=2 e O=i i seguenti numeri dovranno essere inseriti all'interno del db (colonna valore): 19. Questa riga avrà il valore 3 nella colonna insieme.  
