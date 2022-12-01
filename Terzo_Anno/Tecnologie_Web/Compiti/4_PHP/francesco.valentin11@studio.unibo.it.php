@@ -56,7 +56,7 @@
             }
             
             // Disconnect from database
-            function CloseCon() {
+            function CloseCon($conn) {
                 $conn->close();
             }
             
@@ -107,7 +107,7 @@
             CheckVariableB();
             CheckVariableO();
 
-            CloseCon();
+            CloseCon($conn);
 
 
         ?>
