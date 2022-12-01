@@ -46,10 +46,10 @@
                 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
                 //// or die("Connect failed: %s\n". $conn -> error)
                 ////var_dump($conn);
-                if ($conn) {
-                    echo "Successfully connected to database</br>";
+                if ($conn->connect_error) {
+                    die("ERROR: connection to database has failed!</br>" . $conn->connect_error);
                 } else {
-                    echo "ERROR: connection to database has failed!</br>";
+                    echo "Successfully connected to database</br>";
                 }
                 
                 return $conn;
@@ -73,20 +73,21 @@
             CheckVariableO();
 
             //$arrayA;
-            $fillA = $conn->prepare("SELECT valore FROM insiemi WHERE insieme=1");
-            $fillA->execute();
-            //$arrayA = mysqli_fetch_array($resultA, MYSQL_NUM);
-            $resultA = $fillA->get_result();
+            $sql = "SELECT valore FROM insiemi WHERE insieme=1";
+            $stmt = $conn->prepare($sql);
+            $stmt->execute();
+            $stmt->bind_result($row);
 
-            var_dump($resultA->fetch_num());
-
-            foreach ($resultA as $item) {
+            // creating array
+            while($stmt->fetch()) {
                 static $index = 0;
-                $arrayA[$index] = $resultA->fetch_num();
+                $arrayA[$index] = $row;
                 $index++;
             }
 
-            var_dump($arrayA);
+            //$arrayA = fetch_all($result);
+            echo '<pre>', var_dump($arrayA), '</pre>';
+
             
             //$arrayB;
             //$fillB = $conn->prepare("SELECT valore FROM tabelle WHERE insieme=2");
