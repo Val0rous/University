@@ -7,9 +7,28 @@
     </head>
     <body>
         <?php
+            // Check if the given set is not empty
+            function CheckSetNotEmpty($set_number, $conn)
+            {
+                $sql = "SELECT COUNT(*) FROM insiemi WHERE insieme=?";
+                $stmt = $conn->prepare($sql);
+                $stmt->bind_param("i", $set_number);
+                $stmt->execute();
+                $stmt->bind_result($num_rows);
+                $stmt->fetch();
+                // Only returns true if the number of rows is valid
+                if ($num_rows > 0) {
+                    // Set is not empty
+                    return true;
+                }
+                // Set is empty
+                return false;
+            }
+
             // Check if variable A is valid and has values in DB
-            function CheckVariableA($A, $conn) {
-                if ($A >= 0 and $A != NULL) {
+            function CheckVariableA($A, $conn)
+            {
+                if ($A >= 0 and $A != null) {
                     echo "Variable A is valid<br/>";
                 } else {
                     echo "Variable A is NOT valid!";
@@ -24,8 +43,9 @@
             }
             
             // Check if variable B is valid and has values in DB
-            function CheckVariableB($B, $conn) {
-                if ($B >= 0 and $B != NULL) {
+            function CheckVariableB($B, $conn)
+            {
+                if ($B >= 0 and $B != null) {
                     echo "Variable B is valid<br/>";
                 } else {
                     echo "Variable B is NOT valid!";
@@ -40,8 +60,9 @@
             }
             
             // Check if variable O is valid
-            function CheckVariableO($O) {
-                if ($O != NULL and ($O === "i" or $O === "u")) {
+            function CheckVariableO($O)
+            {
+                if ($O != null and ($O === "i" or $O === "u")) {
                     echo "Variable O is valid</br>";
                 } else {
                     echo "Variable O is NOT valid!";
@@ -50,7 +71,8 @@
             }
             
             // Connect to database
-            function OpenCon() {
+            function OpenCon()
+            {
                 $dbhost = "localhost";
                 $dbuser = "root";
                 $dbpass = "";
@@ -68,12 +90,14 @@
             }
             
             // Disconnect from database
-            function CloseCon($conn) {
+            function CloseCon($conn)
+            {
                 $conn->close();
             }
             
             // List values in either set A ($set = 1) or B ($set = 2)
-            function ListValuesInSet($set_number, $conn) {
+            function ListValuesInSet($set_number, $conn)
+            {
                 $sql = "SELECT valore FROM insiemi WHERE insieme=?";
                 $stmt = $conn->prepare($sql);
                 $stmt->bind_param("i", $set_number);
@@ -92,8 +116,8 @@
             }
 
             // Operate Union or Intersection on the two arrays based on the value of $O
-            function OperateOnSet($arrayA, $arrayB) {
-                global $O;
+            function OperateOnSet($arrayA, $arrayB, $O)
+            {
                 $newSet = [];
                 switch ($O) {
                     case "u":
@@ -112,7 +136,8 @@
             }
 
             // Get next usable index in the database, useful to insert values in DB
-            function GetNextIndex($conn) {
+            function GetNextIndex($conn)
+            {
                 $sql = "SELECT MAX(id) FROM insiemi";
                 $stmt = $conn->prepare($sql);
                 $stmt->execute();
@@ -122,27 +147,9 @@
                 return $index+1;
             }
 
-            // Check if the given set is not empty
-            // If set is not empty, returns true
-            // If set is empty, returns false
-            function CheckSetNotEmpty($set_number, $conn) {
-                $sql = "SELECT COUNT(*) FROM insiemi WHERE insieme=?";
-                $stmt = $conn->prepare($sql);
-                $stmt->bind_param("i", $set_number);
-                $stmt->execute();
-                $stmt->bind_result($num_rows);
-                $stmt->fetch();
-
-                // only returns true if number of rows is valid
-                if ($num_rows > 0) {
-                    return true;
-                }
-                
-                return false;
-            }
-
             // Inserts values inside DB
-            function InsertValuesInDB($values, $conn) {
+            function InsertValuesInDB($values, $conn)
+            {
                 foreach ($values as $value) {
                     $index = GetNextIndex($conn);
                     $sql = "INSERT INTO insiemi (id, valore, insieme) VALUES (?, ?, 3)";
@@ -169,7 +176,7 @@
             echo 'This is array A:<pre>', var_dump($arrayA), '</pre>';
             echo 'This is array B:<pre>', var_dump($arrayB), '</pre>';
 
-            $newArray = OperateOnSet($arrayA, $arrayB);
+            $newArray = OperateOnSet($arrayA, $arrayB, $O);
             echo '<pre>', var_dump($newArray), '</pre>';
 
             InsertValuesInDB($newArray, $conn);
