@@ -12,12 +12,14 @@
                 if ($A >= 0 and $A != NULL) {
                     echo "Variable A is valid<br/>";
                 } else {
-                    die("Variable A is NOT valid!");
+                    echo "Variable A is NOT valid!";
+                    die();
                 }
                 if (CheckSetNotEmpty(1, $conn)) {
                     echo "Variable A has values in DB<br/>";
                 } else {
-                    die("Variable A has NO values in DB!");
+                    echo "Variable A has NO values in DB!";
+                    die();
                 }
             }
             
@@ -26,12 +28,14 @@
                 if ($B >= 0 and $B != NULL) {
                     echo "Variable B is valid<br/>";
                 } else {
-                    die("Variable B is NOT valid!");
+                    echo "Variable B is NOT valid!";
+                    die();
                 }
                 if (CheckSetNotEmpty(2, $conn)) {
                     echo "Variable B has values in DB<br/>";
                 } else {
-                    die("Variable B has NO values in DB!");
+                    echo "Variable B has NO values in DB!";
+                    die();
                 }
             }
             
@@ -40,7 +44,8 @@
                 if ($O != NULL and ($O === "i" or $O === "u")) {
                     echo "Variable O is valid</br>";
                 } else {
-                    die("Variable O is NOT valid!");
+                    echo "Variable O is NOT valid!";
+                    die();
                 }
             }
             
@@ -161,16 +166,13 @@
 
             $arrayA = ListValuesInSet(1, $conn);
             $arrayB = ListValuesInSet(2, $conn);
-            ////echo '<pre>', var_dump($arrayA), '</pre>';
-            ////echo '<pre>', var_dump($arrayB), '</pre>';
+            echo 'This is array A:<pre>', var_dump($arrayA), '</pre>';
+            echo 'This is array B:<pre>', var_dump($arrayB), '</pre>';
 
             $newArray = OperateOnSet($arrayA, $arrayB);
             echo '<pre>', var_dump($newArray), '</pre>';
 
             InsertValuesInDB($newArray, $conn);
-
-            ////echo "The next index in database is ".GetNextIndex($conn);
-            ////echo CheckSetNotEmpty(1, $conn);
             
             CloseCon($conn);
         ?>
