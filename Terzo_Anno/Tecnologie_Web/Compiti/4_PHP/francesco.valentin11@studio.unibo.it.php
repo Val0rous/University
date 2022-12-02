@@ -29,15 +29,15 @@
             function CheckVariableA($A, $conn)
             {
                 if ($A >= 0 and $A != null) {
-                    echo "Variable A is valid<br/>";
+                    echo "<br/>Variable A is valid";
                 } else {
-                    echo "Variable A is NOT valid!";
+                    echo "</br>Variable A is NOT valid!";
                     die();
                 }
                 if (CheckSetNotEmpty(1, $conn)) {
-                    echo "Variable A has values in DB<br/>";
+                    echo " and has values in DB";
                 } else {
-                    echo "Variable A has NO values in DB!";
+                    echo " but has NO values in DB!";
                     die();
                 }
             }
@@ -46,15 +46,15 @@
             function CheckVariableB($B, $conn)
             {
                 if ($B >= 0 and $B != null) {
-                    echo "Variable B is valid<br/>";
+                    echo "<br/>Variable B is valid";
                 } else {
-                    echo "Variable B is NOT valid!";
+                    echo "</br>Variable B is NOT valid!";
                     die();
                 }
                 if (CheckSetNotEmpty(2, $conn)) {
-                    echo "Variable B has values in DB<br/>";
+                    echo " and has values in DB";
                 } else {
-                    echo "Variable B has NO values in DB!";
+                    echo " but has NO values in DB!";
                     die();
                 }
             }
@@ -63,9 +63,9 @@
             function CheckVariableO($O)
             {
                 if ($O != null and ($O === "i" or $O === "u")) {
-                    echo "Variable O is valid</br>";
+                    echo "</br>Variable O is valid</br>";
                 } else {
-                    echo "Variable O is NOT valid!";
+                    echo "</br>Variable O is NOT valid!";
                     die();
                 }
             }
@@ -73,6 +73,7 @@
             // Connect to database
             function OpenCon()
             {
+                echo "Connecting to database...</br>";
                 $dbhost = "localhost";
                 $dbuser = "root";
                 $dbpass = "";
@@ -83,7 +84,7 @@
                 if ($conn->connect_error) {
                     die("ERROR: connection to database has failed!</br>" . $conn->connect_error);
                 } else {
-                    echo "Successfully connected to database</br>";
+                    echo "Successfully connected to database!</br>";
                 }
                 return $conn;
             }
@@ -91,7 +92,9 @@
             // Disconnect from database
             function CloseCon($conn)
             {
+                echo "<br/>Disconnecting from database...";
                 $conn->close();
+                echo "<br/>Successfully disconnected from database!";
             }
             
             // List values in either set A ($set = 1) or B ($set = 2)
@@ -152,30 +155,30 @@
                     $stmt->bind_param("ii", $index, $value);
                     $stmt->execute();
                 }
-                echo "Values have been correctly inserted into DB";
+                echo "<br/>Values in final array have been correctly inserted into DB<br/>";
             }
 
+            // Connecting to database
             $conn = OpenCon();
-
-            // variable data is passed via URL using GET
+            // Variable data is passed via URL using GET
             $A = $_GET["A"];
             $B = $_GET["B"];
             $O = $_GET["O"];
-
+            // Checking if variables are valid
             CheckVariableA($A, $conn);
             CheckVariableB($B, $conn);
             CheckVariableO($O);
-
+            // Filling arrays with values inside database
             $arrayA = ListValuesInSet(1, $conn);
             $arrayB = ListValuesInSet(2, $conn);
-            echo 'This is array A:<pre>', var_dump($arrayA), '</pre>';
-            echo 'This is array B:<pre>', var_dump($arrayB), '</pre>';
-
+            echo '<br/>This is array A:<pre>', var_dump($arrayA), '</pre>';
+            echo '<br/>This is array B:<pre>', var_dump($arrayB), '</pre>';
+            // Creating the new array according to rules
             $newArray = OperateOnSet($arrayA, $arrayB, $O);
-            echo '<pre>', var_dump($newArray), '</pre>';
-
+            echo '<br/>This is the final array:<pre>', var_dump($newArray), '</pre>';
+            // Inserting new array values inside database
             InsertValuesInDB($newArray, $conn);
-            
+            // Disconnecting from database
             CloseCon($conn);
         ?>
     </body>
