@@ -40,7 +40,7 @@
                     // Set is empty
                     return false;
                 }
-
+                
                 // Check if variable A is valid and has values in DB
                 public function CheckVariableA()
                 {
@@ -50,7 +50,7 @@
                         echo "</br>Variable A is NOT valid!";
                         die();
                     }
-                    if (CheckSetNotEmpty(1)) {
+                    if ($this->CheckSetNotEmpty(1)) {
                         echo " and has values in DB";
                     } else {
                         echo " but has NO values in DB!";
@@ -67,7 +67,7 @@
                         echo "</br>Variable B is NOT valid!";
                         die();
                     }
-                    if (CheckSetNotEmpty(2)) {
+                    if ($this->CheckSetNotEmpty(2)) {
                         echo " and has values in DB";
                     } else {
                         echo " but has NO values in DB!";
@@ -164,7 +164,7 @@
                 public function InsertValuesInDB($values)
                 {
                     foreach ($values as $value) {
-                        $index = GetNextIndex($this->conn);
+                        $index = $this->GetNextIndex($this->conn);
                         $sql = "INSERT INTO insiemi (id, valore, insieme) VALUES (?, ?, 3)";
                         $stmt = $this->conn->prepare($sql);
                         $stmt->bind_param("ii", $index, $value);
