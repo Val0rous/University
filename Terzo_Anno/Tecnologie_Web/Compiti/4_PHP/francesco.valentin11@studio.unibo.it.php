@@ -179,21 +179,21 @@
             // Connecting to database
             $dbhandler->OpenCon();
             // Checking if variables are valid
-            CheckVariableA();
-            CheckVariableB();
-            CheckVariableO();
+            $dbhandler->CheckVariableA();
+            $dbhandler->CheckVariableB();
+            $dbhandler->CheckVariableO();
             // Filling arrays with values inside database
-            $arrayA = ListValuesInSet(1);
-            $arrayB = ListValuesInSet(2);
+            $arrayA = $dbhandler->ListValuesInSet(1);
+            $arrayB = $dbhandler->ListValuesInSet(2);
             echo '<br/>This is array A:<pre>', var_dump($arrayA), '</pre>';
             echo '<br/>This is array B:<pre>', var_dump($arrayB), '</pre>';
             // Creating the new array according to rules
-            $newArray = OperateOnSet($arrayA, $arrayB);
+            $newArray = $dbhandler->OperateOnSet($arrayA, $arrayB);
             echo '<br/>This is the final array:<pre>', var_dump($newArray), '</pre>';
             // Inserting new array values inside database
-            InsertValuesInDB($newArray);
+            $dbhandler->InsertValuesInDB($newArray);
             // Disconnecting from database
-            CloseCon();
+            $dbhandler->CloseCon();
         ?>
     </body>
 </html>
