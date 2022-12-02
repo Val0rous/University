@@ -10,7 +10,7 @@
             class DatabaseHandler
             {
                 // Check if the given set is not empty
-                function CheckSetNotEmpty($set_number, $conn)
+                private function CheckSetNotEmpty($set_number, $conn)
                 {
                     $sql = "SELECT COUNT(*) FROM insiemi WHERE insieme=?";
                     $stmt = $conn->prepare($sql);
@@ -28,7 +28,7 @@
                 }
 
                 // Check if variable A is valid and has values in DB
-                function CheckVariableA($A, $conn)
+                public function CheckVariableA($A, $conn)
                 {
                     if ($A >= 0 and $A != null) {
                         echo "<br/>Variable A is valid";
@@ -45,7 +45,7 @@
                 }
                 
                 // Check if variable B is valid and has values in DB
-                function CheckVariableB($B, $conn)
+                public function CheckVariableB($B, $conn)
                 {
                     if ($B >= 0 and $B != null) {
                         echo "<br/>Variable B is valid";
@@ -62,7 +62,7 @@
                 }
                 
                 // Check if variable O is valid
-                function CheckVariableO($O)
+                public function CheckVariableO($O)
                 {
                     if ($O != null and ($O === "i" or $O === "u")) {
                         echo "</br>Variable O is valid</br>";
@@ -73,7 +73,7 @@
                 }
                 
                 // Connect to database
-                function OpenCon()
+                public function OpenCon()
                 {
                     echo "Connecting to database...</br>";
                     $dbhost = "localhost";
@@ -92,7 +92,7 @@
                 }
                 
                 // Disconnect from database
-                function CloseCon($conn)
+                public function CloseCon($conn)
                 {
                     echo "<br/>Disconnecting from database...";
                     $conn->close();
@@ -100,7 +100,7 @@
                 }
                 
                 // List values in either set A ($set = 1) or B ($set = 2)
-                function ListValuesInSet($set_number, $conn)
+                public function ListValuesInSet($set_number, $conn)
                 {
                     $sql = "SELECT valore FROM insiemi WHERE insieme=?";
                     $stmt = $conn->prepare($sql);
@@ -137,7 +137,7 @@
                 }
 
                 // Get next usable index in the database, useful to insert values in DB
-                function GetNextIndex($conn)
+                private function GetNextIndex($conn)
                 {
                     $sql = "SELECT MAX(id) FROM insiemi";
                     $stmt = $conn->prepare($sql);
@@ -148,7 +148,7 @@
                 }
 
                 // Inserts values inside DB
-                function InsertValuesInDB($values, $conn)
+                public function InsertValuesInDB($values, $conn)
                 {
                     foreach ($values as $value) {
                         $index = GetNextIndex($conn);
