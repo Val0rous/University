@@ -16,7 +16,7 @@
                 $stmt->execute();
                 $stmt->bind_result($num_rows);
                 $stmt->fetch();
-                // Only returns true if the number of rows is valid
+                // Only return true if the number of rows is valid
                 if ($num_rows > 0) {
                     // Set is not empty
                     return true;
@@ -79,13 +79,12 @@
                 $dbname = "giugno";
                 $dbport = 3306;
                 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname, $dbport);
-
+                // Check if connection was successful
                 if ($conn->connect_error) {
                     die("ERROR: connection to database has failed!</br>" . $conn->connect_error);
                 } else {
                     echo "Successfully connected to database</br>";
                 }
-                
                 return $conn;
             }
             
@@ -103,7 +102,6 @@
                 $stmt->bind_param("i", $set_number);
                 $stmt->execute();
                 $stmt->bind_result($row);
-    
                 // creating array
                 $array = [];
                 while($stmt->fetch()) {
@@ -111,7 +109,6 @@
                     $array[$index] = $row;
                     $index++;
                 }
-
                 return $array;
             }
 
@@ -131,7 +128,6 @@
                     default:
                         die("No operation is possible!");
                 }
-
                 return $newSet;
             }
 
@@ -143,7 +139,6 @@
                 $stmt->execute();
                 $stmt->bind_result($index);
                 $stmt->fetch();
-
                 return $index+1;
             }
 
