@@ -56,6 +56,7 @@
                         echo " but has NO values in DB!";
                         die();
                     }
+                    return $this;
                 }
                 
                 // Check if variable B is valid and has values in DB
@@ -73,6 +74,7 @@
                         echo " but has NO values in DB!";
                         die();
                     }
+                    return $this;
                 }
                 
                 // Check if variable O is valid
@@ -84,6 +86,7 @@
                         echo "</br>Variable O is NOT valid!";
                         die();
                     }
+                    return $this;
                 }
                 
                 // Connect to database
@@ -102,6 +105,7 @@
                     } else {
                         echo "Successfully connected to database!</br>";
                     }
+                    return $this;
                 }
                 
                 // Disconnect from database
@@ -110,6 +114,7 @@
                     echo "<br/>Disconnecting from database...";
                     $this->conn->close();
                     echo "<br/>Successfully disconnected from database!";
+                    return $this;
                 }
                 
                 // List values in either set A ($set = 1) or B ($set = 2)
@@ -171,17 +176,18 @@
                         $stmt->execute();
                     }
                     echo "<br/>Values in final array have been correctly inserted into DB<br/>";
+                    return $this;
                 }
             }
 
             // Variable data is passed via URL using GET
             $dbhandler = new DatabaseHandler($_GET["A"], $_GET["B"], $_GET["O"]);
             // Connecting to database
-            $dbhandler->openCon();
+            $dbhandler->openCon()
             // Checking if variables are valid
-            $dbhandler->checkVariableA();
-            $dbhandler->checkVariableB();
-            $dbhandler->checkVariableO();
+            ->checkVariableA()
+            ->checkVariableB()
+            ->checkVariableO();
             // Filling arrays with values inside database
             $arrayA = $dbhandler->listValuesInSet(1);
             $arrayB = $dbhandler->listValuesInSet(2);
@@ -191,9 +197,9 @@
             $newArray = $dbhandler->operateOnSet($arrayA, $arrayB);
             echo '<br/>This is the final array:<pre>', var_dump($newArray), '</pre>';
             // Inserting new array values inside database
-            $dbhandler->insertValuesInDB($newArray);
+            $dbhandler->insertValuesInDB($newArray)
             // Disconnecting from database
-            $dbhandler->closeCon();
+            ->closeCon();
         ?>
     </body>
 </html>
