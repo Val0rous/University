@@ -24,7 +24,7 @@
                 }
 
                 // Check if the given set is not empty
-                private function CheckSetNotEmpty($set_number)
+                private function checkSetNotEmpty($set_number)
                 {
                     $sql = "SELECT COUNT(*) FROM insiemi WHERE insieme=?";
                     $stmt = $this->conn->prepare($sql);
@@ -42,7 +42,7 @@
                 }
                 
                 // Check if variable A is valid and has values in DB
-                public function CheckVariableA()
+                public function checkVariableA()
                 {
                     if ($this->A >= 0 and $this->A != null) {
                         echo "<br/>Variable A is valid";
@@ -50,7 +50,7 @@
                         echo "</br>Variable A is NOT valid!";
                         die();
                     }
-                    if ($this->CheckSetNotEmpty(1)) {
+                    if ($this->checkSetNotEmpty(1)) {
                         echo " and has values in DB";
                     } else {
                         echo " but has NO values in DB!";
@@ -59,7 +59,7 @@
                 }
                 
                 // Check if variable B is valid and has values in DB
-                public function CheckVariableB()
+                public function checkVariableB()
                 {
                     if ($this->B >= 0 and $this->B != null) {
                         echo "<br/>Variable B is valid";
@@ -67,7 +67,7 @@
                         echo "</br>Variable B is NOT valid!";
                         die();
                     }
-                    if ($this->CheckSetNotEmpty(2)) {
+                    if ($this->checkSetNotEmpty(2)) {
                         echo " and has values in DB";
                     } else {
                         echo " but has NO values in DB!";
@@ -76,7 +76,7 @@
                 }
                 
                 // Check if variable O is valid
-                public function CheckVariableO()
+                public function checkVariableO()
                 {
                     if ($this->O != null and ($this->O === "i" or $this->O === "u")) {
                         echo "</br>Variable O is valid</br>";
@@ -87,7 +87,7 @@
                 }
                 
                 // Connect to database
-                public function OpenCon()
+                public function openCon()
                 {
                     echo "Connecting to database...</br>";
                     $dbhost = "localhost";
@@ -105,7 +105,7 @@
                 }
                 
                 // Disconnect from database
-                public function CloseCon()
+                public function closeCon()
                 {
                     echo "<br/>Disconnecting from database...";
                     $this->conn->close();
@@ -113,7 +113,7 @@
                 }
                 
                 // List values in either set A ($set = 1) or B ($set = 2)
-                public function ListValuesInSet($set_number)
+                public function listValuesInSet($set_number)
                 {
                     $sql = "SELECT valore FROM insiemi WHERE insieme=?";
                     $stmt = $this->conn->prepare($sql);
@@ -131,7 +131,7 @@
                 }
 
                 // Operate Union or Intersection on the two arrays based on the value of $O
-                function OperateOnSet($arrayA, $arrayB)
+                function operateOnSet($arrayA, $arrayB)
                 {
                     $newSet = [];
                     switch ($this->O) {
@@ -150,7 +150,7 @@
                 }
 
                 // Get next usable index in the database, useful to insert values in DB
-                private function GetNextIndex()
+                private function getNextIndex()
                 {
                     $sql = "SELECT MAX(id) FROM insiemi";
                     $stmt = $this->conn->prepare($sql);
@@ -161,10 +161,10 @@
                 }
 
                 // Inserts values inside DB
-                public function InsertValuesInDB($values)
+                public function insertValuesInDB($values)
                 {
                     foreach ($values as $value) {
-                        $index = $this->GetNextIndex($this->conn);
+                        $index = $this->getNextIndex($this->conn);
                         $sql = "INSERT INTO insiemi (id, valore, insieme) VALUES (?, ?, 3)";
                         $stmt = $this->conn->prepare($sql);
                         $stmt->bind_param("ii", $index, $value);
@@ -177,23 +177,23 @@
             // Variable data is passed via URL using GET
             $dbhandler = new DatabaseHandler($_GET["A"], $_GET["B"], $_GET["O"]);
             // Connecting to database
-            $dbhandler->OpenCon();
+            $dbhandler->openCon();
             // Checking if variables are valid
-            $dbhandler->CheckVariableA();
-            $dbhandler->CheckVariableB();
-            $dbhandler->CheckVariableO();
+            $dbhandler->checkVariableA();
+            $dbhandler->checkVariableB();
+            $dbhandler->checkVariableO();
             // Filling arrays with values inside database
-            $arrayA = $dbhandler->ListValuesInSet(1);
-            $arrayB = $dbhandler->ListValuesInSet(2);
+            $arrayA = $dbhandler->listValuesInSet(1);
+            $arrayB = $dbhandler->listValuesInSet(2);
             echo '<br/>This is array A:<pre>', var_dump($arrayA), '</pre>';
             echo '<br/>This is array B:<pre>', var_dump($arrayB), '</pre>';
             // Creating the new array according to rules
-            $newArray = $dbhandler->OperateOnSet($arrayA, $arrayB);
+            $newArray = $dbhandler->operateOnSet($arrayA, $arrayB);
             echo '<br/>This is the final array:<pre>', var_dump($newArray), '</pre>';
             // Inserting new array values inside database
-            $dbhandler->InsertValuesInDB($newArray);
+            $dbhandler->insertValuesInDB($newArray);
             // Disconnecting from database
-            $dbhandler->CloseCon();
+            $dbhandler->closeCon();
         ?>
     </body>
 </html>
