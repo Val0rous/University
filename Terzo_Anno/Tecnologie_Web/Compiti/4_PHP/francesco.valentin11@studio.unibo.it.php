@@ -101,7 +101,8 @@
                     $this->conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname, $dbport);
                     // Check if connection was successful
                     if ($this->conn->connect_error) {
-                        die("ERROR: connection to database has failed!</br>" . $this->conn->connect_error);
+                        echo "ERROR: connection to database has failed!</br>" . $this->conn->connect_error;
+                        die();
                     } else {
                         echo "Successfully connected to database!</br>";
                     }
@@ -149,7 +150,8 @@
                             $newSet = array_intersect($arrayA, $arrayB);
                             break;
                         default:
-                            die("No operation is possible!");
+                            echo "No operation is possible!";
+                            die();
                     }
                     return $newSet;
                 }
