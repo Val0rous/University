@@ -1,28 +1,8 @@
 "use strict";
 
-// Basically it's an image slider, and the leftmost and rightmost images are useful to 
-// scroll the carousel. There should only be 3 images visible at once, at most, a.k.a.
-// the current image, along the previous and the following ones.
-
-/*
-Al caricamento della pagina vengono nascoste tutte le immagini, eccetto le prime due.
-Alla prima immagine deve essere inoltre aggiunta la classe "current".
-
-Al click su un'immagine, si deve controllare se l'immagine ha la classe current e nel caso
-non fare nulla. In caso contrario, invece, bisogna aggiungere la classe current, rimuovendola
-da altre immagini. Successivamente, vanno opportunamente nascoste e visualizzate le immagini
-in modo che siano visibili: l'immagine con classe current, l'eventuale immagine prima e
-l'eventuale immagine dopo.
-
-Il codice HTML fornito non deve essere modificato (a parte il nome dello script)
-
-La soluzione deve essere abbastanza generale da non dover cambiare codice nel caso si
-aggiungesse una nuova immagine
-*/
-
 const images = window.document.images;
 
-// Hide images
+// Hide all images but the first two ones
 for (let i=2; i<images.length; i++) {
     images[i].style.display = "none";
 }
