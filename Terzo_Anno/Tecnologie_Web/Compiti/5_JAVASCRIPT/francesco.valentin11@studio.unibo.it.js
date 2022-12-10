@@ -1,6 +1,15 @@
 "use strict";
 
-const images = window.document.images;
+// Array of all images inside the slider
+const images = Array();
+
+// Add only images inside the div having class="slider-image"
+for (let i=0; i<document.images.length; i++) {
+    if (document.images.item(i).parentElement === 
+    document.getElementsByClassName("slider-image").item(0)) {
+        images.push(document.images.item(i));
+    }
+}
 
 // Hide all images but the first two ones
 for (let i=2; i<images.length; i++) {
@@ -22,6 +31,7 @@ function handleClick(image) {
     if (image.classList.contains("current")) {
         // Do nothing
     } else {
+        //TODO: simplify functions being called
         removeAllCurrent();
         setCurrent(image);
         hideAllImages();
@@ -33,7 +43,7 @@ function handleClick(image) {
 function setCurrent(image) {
     image.classList.add("current");
 }
-
+//TODO: improve current image switching by using DOM navigation instead of bruteforcing it
 // Remove "current" class from all images
 function removeAllCurrent() {
     for (const image of images) {
@@ -47,7 +57,7 @@ function hideAllImages() {
         image.style.display = "none";
     }
 }
-
+//TODO: improve image switching by using DOM navigation instead of current bruteforcing technique
 // Show previous and following images of given one, if they exist
 function showImages(image) {
     var index = getIndex(image, images);
@@ -62,6 +72,7 @@ function showImages(image) {
     }
 }
 
+//TODO: make this function useless by not using it anymore
 // Gets index of element in array. Returns -1 if element does not exist
 function getIndex(element, array) {
     for (let i=0; i<array.length; i++) {
