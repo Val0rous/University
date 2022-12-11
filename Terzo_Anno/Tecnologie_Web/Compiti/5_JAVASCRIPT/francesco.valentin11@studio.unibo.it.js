@@ -11,6 +11,13 @@ for (let i=0; i<document.images.length; i++) {
     }
 }
 
+// Add event listener to each image
+for (const image of images) {
+    image.addEventListener("click", function() {
+        handleClick(image);
+    });
+}
+
 // Hide all images
 for (const image of images) {
     image.style.display = "none";
@@ -19,66 +26,55 @@ for (const image of images) {
 // Set first image as current
 setCurrent(images[0]);
 
-// Add event listener to each image
-for (const image of images) {
-    image.addEventListener("click", function() {
-        handleClick(image);
-    });
-}
-
-/** Specify what to do when a click event strikes */
+/** 
+ * Specify what to do when a click event strikes
+ * @param image - the image that is being clicked
+ */
 function handleClick(image) {
     if (image.classList.contains("current")) {
         // Do nothing
     } else {
         //TODO: simplify functions being called
         setCurrent(image);
-        hideAllImages();
-        showImages(image);
     }
 }
 
 /**
  * Switches current image, removing "current" class from the element that held it beforehand and setting it to another image
+ * @param image - the image that is going to be set as current
  */ 
 function setCurrent(image) {
     if (image.previousElementSibling !== null) {
-        image.classList.remove("current");
+        image.previousElementSibling.classList.remove("current");
     }
     if (image.nextElementSibling !== null) {
-        image.classlist.remove("current");
+        image.nextElementSibling.classlist.remove("current");
     }
     image.classList.add("current");
+    showImages(image);
 }
 
-/** Hide all images */
-function hideAllImages() {
-    for (const image of images) {
-        image.style.display = "none";
+/** Hide images that are not next to the current one */
+function hideImages(image) {
+    if (image.previousElementSibling.previousElementSibling !== null) {
+        image.previousElementSibling.previousElementSibling.style.display = "none";
+    }
+    if (image.nextElementSibling.nextElementSibling !== null) {
+        image.nextElementSibling.nextElementSibling.style.display = "none";
     }
 }
+
 //TODO: improve image switching by using DOM navigation instead of current bruteforcing technique
 /** Show previous and following images of given one, if they exist */
 function showImages(image) {
-    var index = getIndex(image, images);
-    images[index].style.display = "inline-block";
+    image.style.display = "inline-block";
     // Previous image
-    if ((index-1) >= 0) {
-        images[index-1].style.display = "inline-block";
+    if (image.previousElementSibling !== null) {
+        image.previousElementSibling.style.display = "inline-block";
     }
-    // Following image
-    if ((index+1) < images.length) {
-        images[index+1].style.display = "inline-block";
+    // Next image
+    if (image.nextElementSibling !== null) {
+        image.nextElementSibling.style.display = "inline-block";
     }
-}
-
-//TODO: make this function useless by not using it anymore
-/** Gets index of element in array. Returns -1 if element does not exist */
-function getIndex(element, array) {
-    for (let i=0; i<array.length; i++) {
-        if (array[i] === element) {
-            return i;
-        }
-    }
-    return -1;
+    hideImages(image);
 }
