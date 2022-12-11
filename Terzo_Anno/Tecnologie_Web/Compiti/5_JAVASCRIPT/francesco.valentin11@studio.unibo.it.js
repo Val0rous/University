@@ -1,6 +1,6 @@
 "use strict";
 
-// Array of all images inside the slider
+/** Array of all images inside the slider */
 const images = Array();
 
 // Add only images inside the div having class="slider-image"
@@ -11,12 +11,12 @@ for (let i=0; i<document.images.length; i++) {
     }
 }
 
-// Hide all images but the first two ones
-for (let i=2; i<images.length; i++) {
-    images[i].style.display = "none";
+// Hide all images
+for (const image of images) {
+    image.style.display = "none";
 }
 
-// Add "current" class to first image
+// Set first image as current
 setCurrent(images[0]);
 
 // Add event listener to each image
@@ -26,39 +26,39 @@ for (const image of images) {
     });
 }
 
-// Specify what to do when a click event strikes
+/** Specify what to do when a click event strikes */
 function handleClick(image) {
     if (image.classList.contains("current")) {
         // Do nothing
     } else {
         //TODO: simplify functions being called
-        removeAllCurrent();
         setCurrent(image);
         hideAllImages();
         showImages(image);
     }
 }
 
-// Set "current" class to an image
+/**
+ * Switches current image, removing "current" class from the element that held it beforehand and setting it to another image
+ */ 
 function setCurrent(image) {
-    image.classList.add("current");
-}
-//TODO: improve current image switching by using DOM navigation instead of bruteforcing it
-// Remove "current" class from all images
-function removeAllCurrent() {
-    for (const image of images) {
+    if (image.previousElementSibling !== null) {
         image.classList.remove("current");
     }
+    if (image.nextElementSibling !== null) {
+        image.classlist.remove("current");
+    }
+    image.classList.add("current");
 }
 
-// Hide all images
+/** Hide all images */
 function hideAllImages() {
     for (const image of images) {
         image.style.display = "none";
     }
 }
 //TODO: improve image switching by using DOM navigation instead of current bruteforcing technique
-// Show previous and following images of given one, if they exist
+/** Show previous and following images of given one, if they exist */
 function showImages(image) {
     var index = getIndex(image, images);
     images[index].style.display = "inline-block";
@@ -73,7 +73,7 @@ function showImages(image) {
 }
 
 //TODO: make this function useless by not using it anymore
-// Gets index of element in array. Returns -1 if element does not exist
+/** Gets index of element in array. Returns -1 if element does not exist */
 function getIndex(element, array) {
     for (let i=0; i<array.length; i++) {
         if (array[i] === element) {
