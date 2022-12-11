@@ -36,7 +36,6 @@ function handleClick(image) {
     if (image.classList.contains("current")) {
         // Do nothing
     } else {
-        //TODO: simplify functions being called
         removeAllCurrent();
         setCurrent(image);
         hideAllImages();
