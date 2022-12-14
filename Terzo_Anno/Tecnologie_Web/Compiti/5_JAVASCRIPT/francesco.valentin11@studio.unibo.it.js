@@ -1,80 +1,87 @@
 "use strict";
 
-/** Array of all images inside the slider */
+/**
+ * Array of all images inside the slider
+ */
 const images = Array();
 
 // Add only images inside the div having class="slider-image"
-for (let i=0; i<document.images.length; i++) {
-    if (document.images.item(i).parentElement === 
-    document.getElementsByClassName("slider-image").item(0)) {
+for (let i = 0; i < document.images.length; i++) {
+    if (document.images.item(i).parentElement ===
+        document.getElementsByClassName("slider-image").item(0)) {
         images.push(document.images.item(i));
     }
 }
 
+// Hide all images but the first two ones
+for (let i = 2; i < images.length; i++) {
+    images[i].style.display = "none";
+}
+
+// Add "current" class to first image
+setCurrent(images[0]);
+
 // Add event listener to each image
 for (const image of images) {
-    image.addEventListener("click", function() {
+    image.addEventListener("click", function () {
         handleClick(image);
     });
 }
 
-// Hide all images
-for (const image of images) {
-    image.style.display = "none";
-}
-
-// Set first image as current
-setCurrent(images[0]);
-
-/** 
+/**
  * Specify what to do when a click event strikes
- * @param image - the image that is being clicked
+ * @param image - the image that has been clicked
  */
 function handleClick(image) {
     if (image.classList.contains("current")) {
         // Do nothing
     } else {
-        //TODO: simplify functions being called
+        removeAllCurrent();
         setCurrent(image);
+        hideAllImages();
+        showImages(image);
     }
 }
 
 /**
- * Switches current image, removing "current" class from the element that held it beforehand and setting it to another image
+ * Set "current" class to an image
  * @param image - the image that is going to be set as current
- */ 
+ */
 function setCurrent(image) {
-    if (image.previousElementSibling !== null) {
-        image.previousElementSibling.classList.remove("current");
-    }
-    if (image.nextElementSibling !== null) {
-        image.nextElementSibling.classlist.remove("current");
-    }
     image.classList.add("current");
-    showImages(image);
 }
 
-/** Hide images that are not next to the current one */
-function hideImages(image) {
-    if (image.previousElementSibling.previousElementSibling !== null) {
-        image.previousElementSibling.previousElementSibling.style.display = "none";
-    }
-    if (image.nextElementSibling.nextElementSibling !== null) {
-        image.nextElementSibling.nextElementSibling.style.display = "none";
+/**
+ * Remove "current" class from all images
+ */
+function removeAllCurrent() {
+    for (const image of images) {
+        image.classList.remove("current");
     }
 }
 
-//TODO: improve image switching by using DOM navigation instead of current bruteforcing technique
-/** Show previous and following images of given one, if they exist */
+/**
+ * Hide all images
+ */
+function hideAllImages() {
+    for (const image of images) {
+        image.style.display = "none";
+    }
+}
+
+/**
+ * Show previous and following images of given one, if they exist
+ * @param image - current image
+ */
 function showImages(image) {
-    image.style.display = "inline-block";
+    var index = images.indexOf(image);
+    images[index].style.display = "inline-block";
     // Previous image
-    if (image.previousElementSibling !== null) {
-        image.previousElementSibling.style.display = "inline-block";
+    if ((index - 1) >= 0) {
+        images[index - 1].style.display = "inline-block";
     }
-    // Next image
-    if (image.nextElementSibling !== null) {
-        image.nextElementSibling.style.display = "inline-block";
+    // Following image
+    if ((index + 1) < images.length) {
+        images[index + 1].style.display = "inline-block";
     }
-    hideImages(image);
 }
