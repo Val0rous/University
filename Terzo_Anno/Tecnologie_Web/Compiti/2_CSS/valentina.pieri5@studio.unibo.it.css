@@ -1,0 +1,76 @@
+header{
+    background-image: linear-gradient(170deg, pink, yellow,pink, purple);
+    color: purple;
+    text-align: right;
+    width: 100%;
+    font-family: "Andale Mono", monospace;
+    margin: 1% 0;
+    padding: 1% 0;
+    border-bottom: 3px solid purple;
+}
+
+nav{
+    float: left;
+    font-family: "Andale Mono", monospace;
+    width: 15%;
+    margin: 0 1%;
+    padding: 1% 0;
+    background-image: linear-gradient(170deg, pink, yellow,pink, purple);
+    border-top: 3px solid purple;
+    border-bottom: 3px solid purple;
+}
+
+nav, ul{
+    list-style-type: square;
+    text-align: left;
+    line-height: 200%;
+}
+
+nav:hover{
+    background-image: linear-gradient(170deg, purple, pink,yellow, pink);
+}
+
+nav a:hover{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    /*padding: 1%;*/
+    margin: 1% 0;
+}
+aside{
+    display: inline-block;
+    font-family: "Andale Mono", monospace;
+    color:purple;
+    width: 20%;
+    margin: 0 5%;
+    padding: 1% 0;
+}
+
+section{
+    float: right;
+    font-family: "Andale Mono", monospace;
+    width: 50%;
+    margin: 0 3% 0 -5%;
+    padding: 1% 0 0 1%;
+}
+
+section p{
+    text-align: left;
+    color:black;
+}
+
+footer{
+    display: inline-block;
+    background-image: linear-gradient(170deg, purple, pink,yellow, pink);
+    border-top: 3px solid purple;
+    font-family: "Andale Mono", monospace;
+    width: 100%;
+    margin: 2% 0;
+    padding: 1% 0;
+}
+
+footer p{
+    color:purple;
+    text-align: center;
+    font-size: 80%;
+}
