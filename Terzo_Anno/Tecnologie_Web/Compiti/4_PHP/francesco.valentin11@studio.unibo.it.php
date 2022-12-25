@@ -171,7 +171,7 @@
                 public function insertValuesInDB($values)
                 {
                     foreach ($values as $value) {
-                        $index = $this->getNextIndex($this->conn);
+                        $index = $this->getNextIndex();
                         $sql = "INSERT INTO insiemi (id, valore, insieme) VALUES (?, ?, 3)";
                         $stmt = $this->conn->prepare($sql);
                         $stmt->bind_param("ii", $index, $value);
