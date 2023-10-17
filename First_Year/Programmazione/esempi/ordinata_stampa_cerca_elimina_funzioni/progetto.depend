@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1512317726 source:c:\fpiccinini\dottorato\courses\2016_programmazioneal_antonellacarbonaro\2017_dispenselaboratorio_fp\aa_2017-18\dispensa_fp_19\esempi\ordinata_stampa_cerca_elimina_swap_funzioni\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1512669425 source:c:\fpiccinini\dottorato\courses\2016_programmazioneal_antonellacarbonaro\2017_dispenselaboratorio_fp\aa_2017-18\dispensa_fp_19\esempi\ordinata_stampa_cerca_elimina_funzioni\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+	<string.h>
+
+1512375920 source:g:\fpiccinini\dottorato\courses\2016_programmazioneal_antonellacarbonaro\2017_dispenselaboratorio_fp\aa_2017-18\dispensa_fp_19\esempi\ordinata_stampa_cerca_elimina_funzioni\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+	<string.h>
+
+1512673026 source:c:\fpiccinini\dottorato\courses\2016_programmazioneal_carbonaro\2018_dispenselaboratorio_fp\aa_2018-19\dispensa_fp_18\esempi\ordinata_stampa_cerca_elimina_funzioni\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+	<string.h>
+

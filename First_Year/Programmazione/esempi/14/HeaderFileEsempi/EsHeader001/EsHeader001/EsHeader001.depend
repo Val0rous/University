@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\n56j\desktop\esheader001\esheader001\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1511886101 source:c:\users\n56j\desktop\esheader001\esheader001\myfunctions.c
+	"MyFunctions.h"
+
+1511886213 c:\users\n56j\desktop\esheader001\esheader001\myfunctions.h
+
+1511886366 source:g:\fpiccinini\dottorato\courses\2016_programmazioneal_carbonaro\other\headerfile\esheader001\esheader001\main.c
+	<stdio.h>
+	<stdlib.h>
+	"MyFunctions.h"
+
+1511886214 g:\fpiccinini\dottorato\courses\2016_programmazioneal_carbonaro\other\headerfile\esheader001\esheader001\myfunctions.h
+
+1511886102 source:g:\fpiccinini\dottorato\courses\2016_programmazioneal_carbonaro\other\headerfile\esheader001\esheader001\myfunctions.c
+	"MyFunctions.h"
+

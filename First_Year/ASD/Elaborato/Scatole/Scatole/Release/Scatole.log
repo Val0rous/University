@@ -1,0 +1,8 @@
+﻿  Scatole.c
+C:\Users\fv260\Desktop\Informatica\1 – II\ASD - Algoritmi e Strutture Dati\Elaborato\Scatole.c(87,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv260\Desktop\Informatica\1 – II\ASD - Algoritmi e Strutture Dati\Elaborato\Scatole.c(100,16): warning C4477: 'printf' : format string '%-d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Scatole.vcxproj -> C:\Users\fv260\Desktop\Informatica\1 – II\ASD - Algoritmi e Strutture Dati\Elaborato\Scatole\Release\Scatole.exe

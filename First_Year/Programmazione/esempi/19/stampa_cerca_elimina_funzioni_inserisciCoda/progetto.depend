@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1517260738 source:c:\fpiccinini\dottorato\courses\2016_programmazioneal_antonellacarbonaro\2017_dispenselaboratorio_fp\aa_2017-18\dispensa_fp_18\esempi\stampa_cerca_elimina_funzioni\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1575627254 source:c:\fpiccinini\dottorato\courses\2016_programmazioneal_carbonaro\2019_dispenselaboratorio_fp\dispensa_fp_17\esempi\stampa_cerca_elimina_funzioni_inseriscicoda\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1512636549 source:g:\fpiccinini\dottorato\courses\2016_programmazioneal_antonellacarbonaro\2017_dispenselaboratorio_fp\aa_2017-18\dispensa_fp_25\esempi\esempio02\es02\main.c
+	<stdlib.h>
+	<stdio.h>
+

@@ -1,0 +1,1 @@
+Il file yolov3.weights può essere scaricato da: https://pjreddie.com/media/files/yolov3.weights

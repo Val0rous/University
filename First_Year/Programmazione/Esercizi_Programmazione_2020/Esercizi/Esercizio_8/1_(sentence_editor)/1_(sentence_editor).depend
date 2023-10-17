@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1607033585 source:c:\users\leonardo\google drive\università\programmazione\esercizi\esercizio_8\1_(sentence_editor)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	<stdbool.h>
+

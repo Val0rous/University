@@ -1,0 +1,1 @@
+Il file 'prova.txt' e' aperto in modo 'w'.

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1608478138 source:c:\users\leonardo\google drive\università\programmazione\esercizi\esercizio_9\1_(read_books)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+

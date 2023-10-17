@@ -1,0 +1,16 @@
+n 10
+i ciao 0
+i pippo 13
+i prova 8
+i algoritmi -9
+i strutture 11
+i dati 91
+s dati
+s pluto
+s strutture
+d pippo
+i ciao -99
+s ciao
+d ciao
+s ciao
+s pippo

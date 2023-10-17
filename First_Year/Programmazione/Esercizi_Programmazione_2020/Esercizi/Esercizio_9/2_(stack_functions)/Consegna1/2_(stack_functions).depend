@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1608287426 source:c:\users\leonardo\google drive\università\programmazione\esercizi\esercizio_9\2_(stack_functions)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"stack.h"
+
+1608295607 c:\users\leonardo\google drive\università\programmazione\esercizi\esercizio_9\2_(stack_functions)\stack.h
+
+1608295551 source:c:\users\leonardo\google drive\università\programmazione\esercizi\esercizio_9\2_(stack_functions)\stack.c
+	"stack.h"
+	<stdlib.h>
+	<stdio.h>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1605809674 source:c:\users\leonardo\google drive\università\programmazione\esercizi\esercizio_7\1_(personal organizer)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1605815702 source:c:\users\leonardo\google drive\università\programmazione\esercizi\esercizio_7\1_(personal_organizer)\consegna1\1_(personal_organizer)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdbool.h>
+

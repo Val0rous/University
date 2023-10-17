@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1512753370 source:c:\fpiccinini\dottorato\courses\2016_programmazioneal_antonellacarbonaro\2017_dispenselaboratorio_fp\aa_2017-18\dispensa_fp_22\esempi\pila_funzioni\pila_funzioni\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1544135298 source:c:\fpiccinini\dottorato\courses\2016_programmazioneal_carbonaro\2018_dispenselaboratorio_fp\aa_2018-19\dispensa_fp_22\esempi\coda_funzioni\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1544135665 source:g:\fpiccinini\dottorato\courses\2016_programmazioneal_carbonaro\2018_dispenselaboratorio_fp\aa_2018-19\dispensa_fp_22\esempi\coda_funzioni\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1607630978 source:c:\fpiccinini\dottorato\courses\2016_programmazioneal_carbonaro\2020_dispenselaboratorio_fp\dispensa_fp_24\esempi\coda_funzioni_ver3\main.c
+	<stdio.h>
+	<stdlib.h>
+
