@@ -1,0 +1,86 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GenericVector/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/GenericVector.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GenericVector.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GenericVector/1.0.0": {
+      "type": "project",
+      "path": "../GenericVector/GenericVector.csproj",
+      "msbuildProject": "../GenericVector/GenericVector.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "GenericVector >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/mirko/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-05/Pair/Pair.csproj",
+      "projectName": "Pair",
+      "projectPath": "/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-05/Pair/Pair.csproj",
+      "packagesPath": "/home/mirko/.nuget/packages/",
+      "outputPath": "/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-05/Pair/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/mirko/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-05/GenericVector/GenericVector.csproj": {
+              "projectPath": "/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-05/GenericVector/GenericVector.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/3.1.415/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

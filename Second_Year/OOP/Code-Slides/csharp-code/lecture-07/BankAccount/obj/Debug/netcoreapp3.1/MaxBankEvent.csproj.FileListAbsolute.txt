@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/bin/Debug/netcoreapp3.1/MaxBankEvent
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/bin/Debug/netcoreapp3.1/MaxBankEvent.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/bin/Debug/netcoreapp3.1/MaxBankEvent.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/bin/Debug/netcoreapp3.1/MaxBankEvent.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/bin/Debug/netcoreapp3.1/MaxBankEvent.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/bin/Debug/netcoreapp3.1/MaxBankEvent.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/obj/Debug/netcoreapp3.1/MaxBankEvent.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/obj/Debug/netcoreapp3.1/MaxBankEvent.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/obj/Debug/netcoreapp3.1/MaxBankEvent.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/obj/Debug/netcoreapp3.1/MaxBankEvent.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/obj/Debug/netcoreapp3.1/MaxBankEvent.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/obj/Debug/netcoreapp3.1/MaxBankEvent.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/MaxBankEvent/obj/Debug/netcoreapp3.1/MaxBankEvent.genruntimeconfig.cache

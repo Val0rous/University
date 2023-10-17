@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/bin/Debug/netcoreapp3.1/LINQExample
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/bin/Debug/netcoreapp3.1/LINQExample.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/bin/Debug/netcoreapp3.1/LINQExample.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/bin/Debug/netcoreapp3.1/LINQExample.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/bin/Debug/netcoreapp3.1/LINQExample.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/bin/Debug/netcoreapp3.1/LINQExample.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/obj/Debug/netcoreapp3.1/LINQExample.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/obj/Debug/netcoreapp3.1/LINQExample.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/obj/Debug/netcoreapp3.1/LINQExample.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/obj/Debug/netcoreapp3.1/LINQExample.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/obj/Debug/netcoreapp3.1/LINQExample.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/obj/Debug/netcoreapp3.1/LINQExample.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/LINQExample/obj/Debug/netcoreapp3.1/LINQExample.genruntimeconfig.cache

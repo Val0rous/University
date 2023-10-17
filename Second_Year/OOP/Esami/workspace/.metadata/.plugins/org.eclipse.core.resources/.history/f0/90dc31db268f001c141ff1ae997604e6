@@ -1,0 +1,37 @@
+package a03b.e1;
+
+import java.util.List;
+
+public class LensFactoryImpl implements LensFactory {
+
+	@Override
+	public <E> Lens<List<E>, E> indexer(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <E> Lens<List<List<E>>, E> doubleIndexer(int i, int j) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <A, B> Lens<Pair<A, B>, A> left() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <A, B> Lens<Pair<A, B>, B> right() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <A, B, C> Lens<List<Pair<A, Pair<B, C>>>, C> rightRightAtPos(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

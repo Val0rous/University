@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/obj/Debug/netcoreapp3.1/Enumerables.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/obj/Debug/netcoreapp3.1/Enumerables.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/obj/Debug/netcoreapp3.1/Enumerables.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/obj/Debug/netcoreapp3.1/Enumerables.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/bin/Debug/netcoreapp3.1/Enumerables
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/bin/Debug/netcoreapp3.1/Enumerables.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/bin/Debug/netcoreapp3.1/Enumerables.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/bin/Debug/netcoreapp3.1/Enumerables.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/bin/Debug/netcoreapp3.1/Enumerables.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/bin/Debug/netcoreapp3.1/Enumerables.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/obj/Debug/netcoreapp3.1/Enumerables.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/obj/Debug/netcoreapp3.1/Enumerables.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Enumerables/obj/Debug/netcoreapp3.1/Enumerables.genruntimeconfig.cache

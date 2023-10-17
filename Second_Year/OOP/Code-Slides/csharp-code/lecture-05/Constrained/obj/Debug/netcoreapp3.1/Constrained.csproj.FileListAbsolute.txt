@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/bin/Debug/netcoreapp3.1/Constrained
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/bin/Debug/netcoreapp3.1/Constrained.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/bin/Debug/netcoreapp3.1/Constrained.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/bin/Debug/netcoreapp3.1/Constrained.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/bin/Debug/netcoreapp3.1/Constrained.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/bin/Debug/netcoreapp3.1/Constrained.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/obj/Debug/netcoreapp3.1/Constrained.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/obj/Debug/netcoreapp3.1/Constrained.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/obj/Debug/netcoreapp3.1/Constrained.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/obj/Debug/netcoreapp3.1/Constrained.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/obj/Debug/netcoreapp3.1/Constrained.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/obj/Debug/netcoreapp3.1/Constrained.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Constrained/obj/Debug/netcoreapp3.1/Constrained.genruntimeconfig.cache

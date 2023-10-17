@@ -1,0 +1,13 @@
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/bin/Debug/netcoreapp3.1/Point3D
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/bin/Debug/netcoreapp3.1/Point3D.deps.json
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/bin/Debug/netcoreapp3.1/Point3D.runtimeconfig.json
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/bin/Debug/netcoreapp3.1/Point3D.runtimeconfig.dev.json
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/bin/Debug/netcoreapp3.1/Point3D.dll
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/bin/Debug/netcoreapp3.1/Point3D.pdb
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/obj/Debug/netcoreapp3.1/Point3D.csprojAssemblyReference.cache
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/obj/Debug/netcoreapp3.1/Point3D.AssemblyInfoInputs.cache
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/obj/Debug/netcoreapp3.1/Point3D.AssemblyInfo.cs
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/obj/Debug/netcoreapp3.1/Point3D.csproj.CoreCompileInputs.cache
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/obj/Debug/netcoreapp3.1/Point3D.dll
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/obj/Debug/netcoreapp3.1/Point3D.pdb
+/media/dati/work/Lessons/2021-2022/oop/oop2122-csharp/code/lecture-01/Point3D/obj/Debug/netcoreapp3.1/Point3D.genruntimeconfig.cache

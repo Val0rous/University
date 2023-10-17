@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/bin/Debug/netcoreapp3.1/PersonExpBody
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/bin/Debug/netcoreapp3.1/PersonExpBody.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/bin/Debug/netcoreapp3.1/PersonExpBody.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/bin/Debug/netcoreapp3.1/PersonExpBody.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/bin/Debug/netcoreapp3.1/PersonExpBody.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/bin/Debug/netcoreapp3.1/PersonExpBody.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/obj/Debug/netcoreapp3.1/PersonExpBody.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/obj/Debug/netcoreapp3.1/PersonExpBody.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/obj/Debug/netcoreapp3.1/PersonExpBody.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/obj/Debug/netcoreapp3.1/PersonExpBody.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/obj/Debug/netcoreapp3.1/PersonExpBody.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/obj/Debug/netcoreapp3.1/PersonExpBody.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonExpBody/obj/Debug/netcoreapp3.1/PersonExpBody.genruntimeconfig.cache

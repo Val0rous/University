@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/bin/Debug/netcoreapp3.1/BankAccountDelegates
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/bin/Debug/netcoreapp3.1/BankAccountDelegates.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/bin/Debug/netcoreapp3.1/BankAccountDelegates.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/bin/Debug/netcoreapp3.1/BankAccountDelegates.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/bin/Debug/netcoreapp3.1/BankAccountDelegates.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/bin/Debug/netcoreapp3.1/BankAccountDelegates.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/obj/Debug/netcoreapp3.1/BankAccountDelegates.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/obj/Debug/netcoreapp3.1/BankAccountDelegates.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/obj/Debug/netcoreapp3.1/BankAccountDelegates.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/obj/Debug/netcoreapp3.1/BankAccountDelegates.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/obj/Debug/netcoreapp3.1/BankAccountDelegates.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/obj/Debug/netcoreapp3.1/BankAccountDelegates.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountDelegates/obj/Debug/netcoreapp3.1/BankAccountDelegates.genruntimeconfig.cache

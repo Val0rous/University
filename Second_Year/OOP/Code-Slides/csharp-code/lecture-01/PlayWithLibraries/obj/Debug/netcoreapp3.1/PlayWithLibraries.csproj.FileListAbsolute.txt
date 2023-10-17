@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/bin/Debug/netcoreapp3.1/PlayWithLibraries
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/bin/Debug/netcoreapp3.1/PlayWithLibraries.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/bin/Debug/netcoreapp3.1/PlayWithLibraries.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/bin/Debug/netcoreapp3.1/PlayWithLibraries.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/bin/Debug/netcoreapp3.1/PlayWithLibraries.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/bin/Debug/netcoreapp3.1/PlayWithLibraries.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/obj/Debug/netcoreapp3.1/PlayWithLibraries.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/obj/Debug/netcoreapp3.1/PlayWithLibraries.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/obj/Debug/netcoreapp3.1/PlayWithLibraries.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/obj/Debug/netcoreapp3.1/PlayWithLibraries.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/obj/Debug/netcoreapp3.1/PlayWithLibraries.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/obj/Debug/netcoreapp3.1/PlayWithLibraries.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PlayWithLibraries/obj/Debug/netcoreapp3.1/PlayWithLibraries.genruntimeconfig.cache

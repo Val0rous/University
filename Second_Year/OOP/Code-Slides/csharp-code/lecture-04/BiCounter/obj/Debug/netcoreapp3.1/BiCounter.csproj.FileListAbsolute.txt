@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/bin/Debug/netcoreapp3.1/BiCounter
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/bin/Debug/netcoreapp3.1/BiCounter.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/bin/Debug/netcoreapp3.1/BiCounter.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/bin/Debug/netcoreapp3.1/BiCounter.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/bin/Debug/netcoreapp3.1/BiCounter.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/bin/Debug/netcoreapp3.1/BiCounter.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/obj/Debug/netcoreapp3.1/BiCounter.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/obj/Debug/netcoreapp3.1/BiCounter.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/obj/Debug/netcoreapp3.1/BiCounter.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/obj/Debug/netcoreapp3.1/BiCounter.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/obj/Debug/netcoreapp3.1/BiCounter.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/obj/Debug/netcoreapp3.1/BiCounter.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/BiCounter/obj/Debug/netcoreapp3.1/BiCounter.genruntimeconfig.cache

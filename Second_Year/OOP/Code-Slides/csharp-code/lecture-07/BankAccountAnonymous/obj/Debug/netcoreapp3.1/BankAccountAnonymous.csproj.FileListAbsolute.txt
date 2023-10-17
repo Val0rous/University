@@ -1,0 +1,17 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/obj/Debug/netcoreapp3.1/BankAccountAnonymous.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/obj/Debug/netcoreapp3.1/BankAccountAnonymous.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/obj/Debug/netcoreapp3.1/BankAccountAnonymous.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/obj/Debug/netcoreapp3.1/BankAccountAnonymous.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/bin/Debug/netcoreapp3.1/BankAccountDelegates
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/bin/Debug/netcoreapp3.1/BankAccountAnonymous
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/bin/Debug/netcoreapp3.1/BankAccountAnonymous.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/bin/Debug/netcoreapp3.1/BankAccountAnonymous.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/bin/Debug/netcoreapp3.1/BankAccountAnonymous.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/bin/Debug/netcoreapp3.1/BankAccountAnonymous.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/bin/Debug/netcoreapp3.1/BankAccountAnonymous.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/bin/Debug/netcoreapp3.1/BankAccountDelegates.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/bin/Debug/netcoreapp3.1/BankAccountDelegates.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/obj/Debug/netcoreapp3.1/BankAccountAnonymous.csproj.CopyComplete
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/obj/Debug/netcoreapp3.1/BankAccountAnonymous.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/obj/Debug/netcoreapp3.1/BankAccountAnonymous.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-07/BankAccountAnonymous/obj/Debug/netcoreapp3.1/BankAccountAnonymous.genruntimeconfig.cache

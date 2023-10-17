@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/bin/Debug/netcoreapp3.1/SmartHome
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/bin/Debug/netcoreapp3.1/SmartHome.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/bin/Debug/netcoreapp3.1/SmartHome.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/bin/Debug/netcoreapp3.1/SmartHome.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/bin/Debug/netcoreapp3.1/SmartHome.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/bin/Debug/netcoreapp3.1/SmartHome.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/obj/Debug/netcoreapp3.1/SmartHome.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/obj/Debug/netcoreapp3.1/SmartHome.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/obj/Debug/netcoreapp3.1/SmartHome.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/obj/Debug/netcoreapp3.1/SmartHome.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/obj/Debug/netcoreapp3.1/SmartHome.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/obj/Debug/netcoreapp3.1/SmartHome.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-04/SmartHome/obj/Debug/netcoreapp3.1/SmartHome.genruntimeconfig.cache

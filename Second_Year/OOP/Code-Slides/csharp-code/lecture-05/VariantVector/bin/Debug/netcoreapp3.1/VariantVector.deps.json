@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VariantVector/1.0.0": {
+        "dependencies": {
+          "Pair": "1.0.0"
+        },
+        "runtime": {
+          "VariantVector.dll": {}
+        }
+      },
+      "GenericVector/1.0.0": {
+        "runtime": {
+          "GenericVector.dll": {}
+        }
+      },
+      "Pair/1.0.0": {
+        "dependencies": {
+          "GenericVector": "1.0.0"
+        },
+        "runtime": {
+          "Pair.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VariantVector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GenericVector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pair/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

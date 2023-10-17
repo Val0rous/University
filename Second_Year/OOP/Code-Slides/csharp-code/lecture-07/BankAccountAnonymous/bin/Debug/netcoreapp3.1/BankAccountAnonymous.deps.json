@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BankAccountAnonymous/1.0.0": {
+        "dependencies": {
+          "BankAccountDelegates": "1.0.0"
+        },
+        "runtime": {
+          "BankAccountAnonymous.dll": {}
+        }
+      },
+      "BankAccountDelegates/1.0.0": {
+        "runtime": {
+          "BankAccountDelegates.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankAccountAnonymous/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankAccountDelegates/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

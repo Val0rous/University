@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/bin/Debug/netcoreapp3.1/ObjectList
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/bin/Debug/netcoreapp3.1/ObjectList.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/bin/Debug/netcoreapp3.1/ObjectList.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/bin/Debug/netcoreapp3.1/ObjectList.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/bin/Debug/netcoreapp3.1/ObjectList.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/bin/Debug/netcoreapp3.1/ObjectList.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/obj/Debug/netcoreapp3.1/ObjectList.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/obj/Debug/netcoreapp3.1/ObjectList.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/obj/Debug/netcoreapp3.1/ObjectList.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/obj/Debug/netcoreapp3.1/ObjectList.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/obj/Debug/netcoreapp3.1/ObjectList.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/obj/Debug/netcoreapp3.1/ObjectList.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/ObjectList/obj/Debug/netcoreapp3.1/ObjectList.genruntimeconfig.cache

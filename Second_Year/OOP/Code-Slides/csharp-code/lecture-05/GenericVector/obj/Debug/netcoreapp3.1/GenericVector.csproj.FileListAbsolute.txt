@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/bin/Debug/netcoreapp3.1/GenericVector
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/bin/Debug/netcoreapp3.1/GenericVector.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/bin/Debug/netcoreapp3.1/GenericVector.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/bin/Debug/netcoreapp3.1/GenericVector.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/bin/Debug/netcoreapp3.1/GenericVector.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/bin/Debug/netcoreapp3.1/GenericVector.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/obj/Debug/netcoreapp3.1/GenericVector.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/obj/Debug/netcoreapp3.1/GenericVector.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/obj/Debug/netcoreapp3.1/GenericVector.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/obj/Debug/netcoreapp3.1/GenericVector.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/obj/Debug/netcoreapp3.1/GenericVector.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/obj/Debug/netcoreapp3.1/GenericVector.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/GenericVector/obj/Debug/netcoreapp3.1/GenericVector.genruntimeconfig.cache

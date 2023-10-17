@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/bin/Debug/netcoreapp3.1/PersonMultiple
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/bin/Debug/netcoreapp3.1/PersonMultiple.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/bin/Debug/netcoreapp3.1/PersonMultiple.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/bin/Debug/netcoreapp3.1/PersonMultiple.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/bin/Debug/netcoreapp3.1/PersonMultiple.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/bin/Debug/netcoreapp3.1/PersonMultiple.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/obj/Debug/netcoreapp3.1/PersonMultiple.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/obj/Debug/netcoreapp3.1/PersonMultiple.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/obj/Debug/netcoreapp3.1/PersonMultiple.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/obj/Debug/netcoreapp3.1/PersonMultiple.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/obj/Debug/netcoreapp3.1/PersonMultiple.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/obj/Debug/netcoreapp3.1/PersonMultiple.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/PersonMultiple/obj/Debug/netcoreapp3.1/PersonMultiple.genruntimeconfig.cache

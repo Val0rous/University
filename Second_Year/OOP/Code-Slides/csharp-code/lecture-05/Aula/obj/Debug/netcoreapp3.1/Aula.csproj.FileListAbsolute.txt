@@ -1,0 +1,13 @@
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/obj/Debug/netcoreapp3.1/Aula.csprojAssemblyReference.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/obj/Debug/netcoreapp3.1/Aula.AssemblyInfoInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/obj/Debug/netcoreapp3.1/Aula.AssemblyInfo.cs
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/obj/Debug/netcoreapp3.1/Aula.csproj.CoreCompileInputs.cache
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/bin/Debug/netcoreapp3.1/Aula
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/bin/Debug/netcoreapp3.1/Aula.deps.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/bin/Debug/netcoreapp3.1/Aula.runtimeconfig.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/bin/Debug/netcoreapp3.1/Aula.runtimeconfig.dev.json
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/bin/Debug/netcoreapp3.1/Aula.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/bin/Debug/netcoreapp3.1/Aula.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/obj/Debug/netcoreapp3.1/Aula.dll
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/obj/Debug/netcoreapp3.1/Aula.pdb
+/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-05/Aula/obj/Debug/netcoreapp3.1/Aula.genruntimeconfig.cache
