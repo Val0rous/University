@@ -1,6 +1,0 @@
-   Lun   Prezzo
------- --------
-     2     5.00
-     2     5.00
-     6    17.00
-Guadagno complessivo: 27.00

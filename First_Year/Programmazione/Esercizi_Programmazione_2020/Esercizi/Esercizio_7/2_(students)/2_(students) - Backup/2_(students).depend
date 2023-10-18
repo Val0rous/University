@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1606238254 source:c:\users\leonardo\google drive\università\programmazione\esercizi\esercizio_7\2_(students)\2_(students)\main.c
-	<stdio.h>
-	<stdlib.h>
-	<conio.h>
-	<ctype.h>
-	<string.h>
-

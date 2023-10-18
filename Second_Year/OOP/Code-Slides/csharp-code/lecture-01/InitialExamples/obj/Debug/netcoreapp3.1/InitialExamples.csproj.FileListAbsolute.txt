@@ -1,9 +1,0 @@
-/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/InitialExamples/bin/Debug/netcoreapp3.1/InitialExamples.deps.json
-/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/InitialExamples/bin/Debug/netcoreapp3.1/InitialExamples.dll
-/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/InitialExamples/bin/Debug/netcoreapp3.1/InitialExamples.pdb
-/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/InitialExamples/obj/Debug/netcoreapp3.1/InitialExamples.csprojAssemblyReference.cache
-/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/InitialExamples/obj/Debug/netcoreapp3.1/InitialExamples.AssemblyInfoInputs.cache
-/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/InitialExamples/obj/Debug/netcoreapp3.1/InitialExamples.AssemblyInfo.cs
-/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/InitialExamples/obj/Debug/netcoreapp3.1/InitialExamples.csproj.CoreCompileInputs.cache
-/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/InitialExamples/obj/Debug/netcoreapp3.1/InitialExamples.dll
-/media/dati/work/Consulenze/2021/ima/csharp-base-slides/code/lecture-01/InitialExamples/obj/Debug/netcoreapp3.1/InitialExamples.pdb

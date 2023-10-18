@@ -1,3 +1,0 @@
-[build method:] I can access the field a (1), the field b (2), the input parameter a (1) and the input parameter b (2).
-[dummymethod:] I can access the field a (1), the field b (2) and the input parameter c (3).
-[dummymethod2:] I can access the field a (1), the field b (2), the input parameter a (4), and the local variable b (0).I have no access to c, dummyMethod's input parameter.
